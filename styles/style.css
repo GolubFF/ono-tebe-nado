@@ -154,17 +154,16 @@
 }
 
 .lots-card-list {
-    display: grid;
-    grid-template-rows: 450px;
-    grid-template-columns: repeat(3, 430px);
-    grid-auto-rows: 450px;
-    grid-auto-columns: 430px;
+    display: flex;
+    flex-wrap: wrap;
     gap: 25px;
     list-style-type: none;
     margin-top: 26px;
+
 }
 
 .card {
+    flex-grow: 1;
     position: relative;
     padding: 52px 40px 50px 40px;
     width: 430px;
