@@ -9,6 +9,7 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr);
 }
+
 .header__logo {
     width: 145px;
     height: 105px;
@@ -94,7 +95,6 @@
     margin-top: 15px;
     margin-left: 110px;
     align-self: center;
-
 }
 .aligned-text_right {
     display: block;
@@ -109,7 +109,6 @@
 }
 
 .cover__description {
-
     position: relative;
     display: flex;
     justify-content: right;
@@ -118,9 +117,7 @@
 }
 
 .cover__description-text {
-
     display: block;
-
     font-style: normal;
     font-weight: normal;
     font-size: 22px;
@@ -172,7 +169,6 @@
     width: calc((100% - 50px) / 3);
     flex-grow: 1;
     position: relative;
-
 }
 
 .card {
@@ -261,7 +257,6 @@
     font-weight: bold;
     font-size: 40px;
     text-transform: uppercase;
-
 }
 
 .about__text {
